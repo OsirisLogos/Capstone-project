@@ -10,7 +10,7 @@ def index(request):
     return render(request, 'index.html', {})
 
 
-class MenuItemView(generics.ListCreateAPIView):
+class MenuItemsView(generics.ListCreateAPIView):
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
     
