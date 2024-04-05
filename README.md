@@ -1,5 +1,7 @@
 # Capstone-project
 
+Final project Back-End Development
+
 Endpoints:
 - restaurant/
 - restaurant/api/menu-items
